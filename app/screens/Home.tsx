@@ -18,6 +18,7 @@ const Home = ({ navigation }: RouterProps) => {
     </View>
   );
 };
+
 <Button title="Logout" onPress={() => FIREBASE_AUTH.signOut()} />
 
 export default Home;
